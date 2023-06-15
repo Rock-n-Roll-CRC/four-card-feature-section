@@ -7,6 +7,7 @@ body {
   gap: 1.5rem;
   background-color: #fafafa;
   font: 400 0.938rem Poppins, sans-serif;
+  padding: 2.5rem;
 }
 
 .visually-hidden:not(:focus, :active) {
@@ -18,4 +19,78 @@ body {
   position: absolute;
   white-space: nowrap;
   width: 1px;
+}
+
+/* FOUR-CARD-FEATURE-SECTION */
+.four-card-feature-section {
+  max-width: 19.4rem;
+}
+
+/* section-introduction */
+.section-introduction {
+  text-align: center;
+  margin-bottom: 4.5rem;
+}
+
+.introduction-slogan {
+  color: #4c4e61;
+  font: 200 1.4rem Poppins, sans-serif;
+  line-height: 1.65;
+  margin-bottom: 1rem;
+}
+
+.introduction-slogan > span {
+  font-weight: 600;
+}
+
+.introduction-description {
+  color: #a3a5ae;
+  line-height: 1.65;
+}
+
+/* section-cards */
+.section-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1.55rem;
+}
+
+.card {
+  height: 13.8rem;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 1.4rem 1.8rem;
+}
+
+.card > h2 {
+  color: #4c4e61;
+  font: 600 1.2rem Poppins, sans-serif;
+  margin-bottom: 0.35rem;
+}
+
+.card-description {
+  color: #a3a5ae;
+  font: 400 0.82rem Poppins, sans-serif;
+  line-height: 1.65;
+}
+
+/* card-supervisor */
+.card-supervisor {
+  border-top: 4px solid #45d3d3;
+}
+
+/* card-team-builder */
+.card-team-builder {
+  border-top: 4px solid #ea5353;
+}
+
+/* card-karma */
+.card-karma {
+  border-top: 4px solid #fcaf4a;
+}
+
+/* card-calculator */
+.card-calculator {
+  border-top: 4px solid #549ef2;
 }
