@@ -60,6 +60,7 @@ body {
   width: 100%;
   background-color: #fff;
   border-radius: 5px;
+  box-shadow: 0 0 15px #00000015;
   padding: 1.4rem 1.8rem;
 }
 
@@ -78,19 +79,27 @@ body {
 /* card-supervisor */
 .card-supervisor {
   border-top: 4px solid #45d3d3;
+  background: url("../images/icon-supervisor.svg") bottom 28px right 28px / 18%
+    no-repeat;
 }
 
 /* card-team-builder */
 .card-team-builder {
   border-top: 4px solid #ea5353;
+  background: url("../images/icon-team-builder.svg") bottom 28px right 28px /
+    18% no-repeat;
 }
 
 /* card-karma */
 .card-karma {
   border-top: 4px solid #fcaf4a;
+  background: url("../images/icon-karma.svg") bottom 28px right 28px / 18%
+    no-repeat;
 }
 
 /* card-calculator */
 .card-calculator {
   border-top: 4px solid #549ef2;
+  background: url("../images/icon-calculator.svg") bottom 28px right 28px / 18%
+    no-repeat;
 }
