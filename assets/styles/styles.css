@@ -7,7 +7,7 @@ body {
   gap: 1.5rem;
   background-color: #fafafa;
   font: 400 0.938rem Poppins, sans-serif;
-  padding: 2.5rem;
+  padding: 5.2rem 2.5rem;
 }
 
 .visually-hidden:not(:focus, :active) {
@@ -60,7 +60,7 @@ body {
   width: 100%;
   background-color: #fff;
   border-radius: 5px;
-  box-shadow: 0 0 15px #00000015;
+  box-shadow: 0 0 15px #00000025;
   padding: 1.4rem 1.8rem;
 }
 
@@ -102,4 +102,54 @@ body {
   border-top: 4px solid #549ef2;
   background: url("../images/icon-calculator.svg") bottom 28px right 28px / 18%
     no-repeat;
+}
+
+/* DESKTOP SCREENS */
+@media all and (width >= 64rem) {
+  .four-card-feature-section {
+    max-width: 100%;
+  }
+
+  /* section-introduction */
+  .introduction-slogan {
+    font: 200 2.2rem Poppins, sans-serif;
+    line-height: 1.45;
+  }
+
+  .introduction-description {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  /* section-cards */
+  .section-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 0.7fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1.55rem;
+  }
+
+  /* card-supervisor */
+  .card-supervisor {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  /* card-team-builder */
+  .card-team-builder {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+
+  /* card-karma */
+  .card-karma {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+
+  /* card-calculator */
+  .card-calculator {
+    grid-column: 3/4;
+    grid-row: 2/3;
+  }
 }
